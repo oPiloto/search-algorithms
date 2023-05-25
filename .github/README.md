@@ -3,11 +3,11 @@ This comparison goes beyond 2 search algorithms and also compares a compiled lan
 
 ### 🦀 Rust:
 <div align="center">
-	<img src="./rust.png" alt="Rust code output">
+	<img src="rust.png" alt="Rust code output">
 </div>
 
 ---
 ### 🌙 Lua:
 <div align="center">
-	<img src="./lua.png" alt="Lua code output">
+	<img src="lua.png" alt="Lua code output">
 </div>
