@@ -50,7 +50,6 @@ local results_seq = {}
 local results_bin = {}
 local sort_time = {}
 
--- Cria as tabelas vazias dentro das tabelas
 for i = 1, #list do
     results_seq[i] = {}
     results_bin[i] = {}
@@ -62,7 +61,7 @@ for n, num in ipairs(list) do
         table.insert(vector, math.random(1, num))
     end
 
-    -- Sequencial
+    -- Sequential
     print("Sequential Search:")
     for i = 1, 5 do
         print(string.format("Sequencial search number %d with %d values:", i, num))
@@ -71,7 +70,7 @@ for n, num in ipairs(list) do
         table.insert(results_seq[n], def_search(key, vector, seq_search))
     end
 
-    -- Tempo para ordenar a lista
+    -- Time taken to sort the vector
     print("Sorting the vector for binary search...")
     local start = socket.gettime()
     table.sort(vector)
@@ -79,7 +78,7 @@ for n, num in ipairs(list) do
     print(string.format("Duration of execution: %.3f microseconds or %.3f ms\n", duration * 1000, duration))
     table.insert(sort_time, duration)
 
-    -- Binaria
+    -- Binary
     print("Binary Search:")
     for i = 1, 5 do
         print(string.format("Binary search number %d with %d values:", i, num))
