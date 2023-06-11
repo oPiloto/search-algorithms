@@ -7,7 +7,15 @@ This comparison goes beyond 2 search algorithms and also compares a compiled lan
 </div>
 
 ---
+
 ### 🌙 Lua:
 <div align="center">
 	<img src="lua.png" alt="Lua code output">
+</div>
+
+---
+
+### 🇨 CPP:
+<div align="center">
+    <img src="cpp.png" alt="C++ code output">
 </div>
